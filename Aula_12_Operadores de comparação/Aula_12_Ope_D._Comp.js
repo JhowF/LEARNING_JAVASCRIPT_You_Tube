@@ -19,9 +19,9 @@
 
 
 
-const nome = 'Jonathan';
-const sobreNome = 'Ferreira';
-const idade = 21;
+const nome = 'jonathan';
+const sobreNome = 'ferreira';
+const idade = 15;
 
 if (nome == 'Jonathan'){
     console.log("Usuario valido!");
