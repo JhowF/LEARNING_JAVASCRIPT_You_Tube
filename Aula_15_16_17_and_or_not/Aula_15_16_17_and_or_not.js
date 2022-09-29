@@ -1,7 +1,7 @@
 //AND = &&    OR = ||    NOT = !
 
 
-var idade = 2;
+var idade = 0;
 let nome = 'Jonathan'
 
 
@@ -13,9 +13,6 @@ if ((idade >= 10 && nome == 'Jhow') || nome  == 'Jonathan') {
 }
 
 
-if (numero != '10'){
-    console.log('Valor diferente (7)')
-}else{
-    console.log('Valor igual (7)')
+if (!(idade == 10)){    //Not inverte o valor do argumento basicamente isso diz,      ''SE NÃO FOR (IDADE == 10) EXECULTE O IF SE FOR NÃO EXECULTE''
+    console.log('Deu bom')
 }
-
