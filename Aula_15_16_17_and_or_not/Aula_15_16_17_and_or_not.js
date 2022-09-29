@@ -1,8 +1,17 @@
 //AND = &&    OR = ||    NOT = !
 
 
-var idade = 12;
-let nome = 'Jhow'
+var idade = 2;
+let nome = 'Jonathan'
+
+
+
+if ((idade >= 10 && nome == 'Jhow') || nome  == 'Jonathan') {
+    console.log('Certinho')
+}else{
+    console.log('Errado')
+}
+
 
 if (numero != '10'){
     console.log('Valor diferente (7)')
@@ -10,10 +19,3 @@ if (numero != '10'){
     console.log('Valor igual (7)')
 }
 
-
-//8
-if (numero !== '10'){
-    console.log('Valor diferente (8)')
-}else{
-    console.log('Valor igual (8)')
-}
