@@ -1,19 +1,32 @@
 
-let lista = ['Laranja', 'Maça', 'Pera', 'Banana', 'Manga', 'Abacate', 'Abacaxi'];
+var lista = ['Laranja', 'Maça', 'Pera', 'Banana', 'Manga', 'Abacate', 'Abacaxi'];
 
 
-let listaUL = document.createElement('ul');
+var listaUL = document.createElement('ul');
 
 
-let body = document.getElementsByTagName('body');
+var body = document.getElementsByTagName('body');
 
-console.log(body[0]);
+//console.log(body[0]);
 
 
 body[0].appendChild(listaUL);
 
 
-let listaNoBody = document.getElementsByTagName('ul')
+var listaNoBody = document.getElementsByTagName('ul')
 
 
 console.log(listaNoBody[0])
+
+for (var i =0; i < lista.length; i++){
+
+    var lifor = document.createElement('li');
+
+    var textoli = document.createTextNode(lista[i]);
+
+    lifor.appendChild(textoli);
+
+    listaNoBody[0].appendChild(lifor)
+
+    
+}
