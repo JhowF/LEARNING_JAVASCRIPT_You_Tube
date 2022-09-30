@@ -8,11 +8,11 @@ function soma(a,b=5){
 //console.log(soma());
 
 
-function nome(x){
+function nome(x='Jhow'){
 
     console.log('Testando o nome: ' + x);
 
 }
 
-nome('Jonathan')
+nome('Paloma');
 
