@@ -1,5 +1,8 @@
 // FUNCTION
 
+//Usando return enves do console log o valor ode ser armazenado em uma variavel sem problemas 
+
+
 function soma(a,b=5){
     h = a+b;
     return(h);
@@ -14,5 +17,7 @@ function nome(x='Jhow'){
 
 }
 
-nome('Paloma');
+nome();
+
+
 
