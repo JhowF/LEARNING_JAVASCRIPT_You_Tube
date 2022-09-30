@@ -9,7 +9,7 @@ let j = 'Jonathan'; //GLOBAL
 
 function escopo(){
 
-    j = 'Jhow'  //ESCOPO LOCAL
+    let j = 'Jhow'  //ESCOPO LOCAL
 
     return(j)
 
