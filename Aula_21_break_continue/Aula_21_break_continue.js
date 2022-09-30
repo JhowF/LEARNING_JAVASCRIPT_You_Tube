@@ -9,7 +9,7 @@
 
 for (let i = 10; i > 0; i--){
     
-    console.log(`${i} _ Execução`)
+    console.log(`${i} _ Execução`);
     
    
     
@@ -18,9 +18,35 @@ for (let i = 10; i > 0; i--){
     }
 
 }
-console.log('')
+console.log('');
 
-console.log(`Break`)
+console.log(`Break`);
+
+console.log('Continue');
 
 
+
+
+//CONTINUE
+
+
+i = 0;
+
+
+
+while( i < 6){
+    i+=1; //É bom sempre colocar no inicio do código quando usar o 'continue' para não ter problemas futuros
+
+ if(i === 3 || i === 4 ){
+    console.log('Pulou')
+    continue;
+}
+
+console.log(`${i} _ Continue`);
+
+
+
+}
+
+console.log(`Continue _ finish`);
 
