@@ -26,3 +26,30 @@ console.log(arr.length -1);
 
 //Verificar array
 console.log(Array.isArray(arr));
+
+
+
+
+//PARTE 2
+
+var novoArr = [1,2,3,4,5]
+
+
+//SPLICE
+
+//Adicionar no array
+novoArr.splice(2, 0, 999);   //Primeiro indico a posição do argumento que desejo colocar, após isso coloca 0 para não excluir nenhum elemento e por último coloco o valor que desejo adicionar.
+console.log(novoArr)
+
+//Excluindo elemento
+novoArr.splice(2,1);   //Informo a posição do elemento e quantos elementos desejo excluir a parti dele, caso coloque 1 irá excluir somente o elemento da posição!
+console.log(novoArr)
+
+//indexOf()
+console.log(novoArr.indexOf(2));  //Está me dizendo qual o indice do elemento 2 na minha lista
+
+//join  _Transforma em string um array
+console.log(novoArr.join(', '));
+
+//reverse   _Reverter a ordem do array
+console.log(novoArr.reverse());
