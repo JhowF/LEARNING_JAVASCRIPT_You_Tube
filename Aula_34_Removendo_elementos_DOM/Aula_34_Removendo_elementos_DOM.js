@@ -1,0 +1,3 @@
+//Removendo Elementos
+
+console.log("")
