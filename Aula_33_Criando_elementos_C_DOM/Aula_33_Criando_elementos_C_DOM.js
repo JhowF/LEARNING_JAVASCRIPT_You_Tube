@@ -29,10 +29,12 @@ var novoElementoUl = document.createElement("ul");
 //Adicionando Ul no nav
 novoElemento.appendChild(novoElementoUl)
 
-//Criando Elemento li e adicionando dentro da Ul
+//Criando Elemento li e adicionando dentro da Ul com "ola" dentro
 n=0
 while (n < 4){
     var novoElementoli = document.createElement("li");
+    var cumprimento = document.createTextNode('ola');
+    novoElementoli.append(cumprimento)
     novoElementoUl.appendChild(novoElementoli)
     n+=1
 }
