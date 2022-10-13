@@ -1,0 +1,1 @@
+//sitTimeout e Setinterval
